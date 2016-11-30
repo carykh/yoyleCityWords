@@ -1,15 +1,15 @@
 import processing.opengl.*;
 import saito.objloader.*;
-import com.sun.opengl.util.texture.*;
+import com.jogamp.opengl.util.texture.*;
 OBJModel van;
 //good seeds = 63558, 85052, 87279, 5598, 60908, 81404, 22703, 28671, 19003 (water), 82839, 89424
 //Good seed = 43762
-int seed = 23589;//int(random(0,100000));
+int seed = 43762;//int(random(0,100000));
 int cityLoc = 84;
 
 int full = 0; // <---CHANGED!
-int camMode = 1; // <---CHANGED! //0 = move around, 1 = follow track
-float slope = 1;
+int camMode = 0; // <---CHANGED! //0 = move around, 1 = follow track
+float slope = 120;
 
 PImage bb;
 float xoff = 0.0;
