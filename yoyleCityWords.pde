@@ -1,6 +1,6 @@
 import processing.opengl.*;
 import saito.objloader.*;
-import com.sun.opengl.util.texture.*;
+//import com.sun.opengl.util.texture.*;
 OBJModel van;
 //good seeds = 63558, 85052, 87279, 5598, 60908, 81404, 22703, 28671, 19003 (water), 82839, 89424
 //Good seed = 43762
